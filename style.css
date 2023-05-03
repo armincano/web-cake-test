@@ -1,0 +1,126 @@
+/*  CSS custom properties (variables)
+in its compiled CSS for real-time customization
+without the need to recompile Sass. */
+:root{
+    --bs-body-font-family: 'Roboto', sans-serif !important;
+    --bs-body-font-size: 0.9rem !important;
+    --bs-body-font-weight: 400 !important;
+    --bs-body-line-height: 1.3 !important;
+
+    /* text color */
+    --bs-body-color: #AD5B1A !important;
+    --bs-emphasis-color-rgb: 244, 66, 67 !important;
+    --bs-tertiary-color-rgb: 73, 91, 26 !important;
+    
+    /* bg color */
+    --bs-body-bg: #ffffff !important;
+    --bs-secondary-bg-rgb: 255, 225, 233 !important;
+    --bs-tertiary-bg-rgb: 244, 204, 213 !important;
+
+    --bs-link-color: #AD5B1A !important;
+    --bs-link-hover-color: #F44243 !important;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+    color: #F44243 !important;
+}
+
+h4{
+    font-family: 'Shrikhand', cursive;
+    color: #F44243 !important;
+}
+
+h7{
+    color: #AD5B1A !important;
+    font-size: 0.9rem !important;
+}
+
+
+/* ANCHOR nav bar button size*/
+.navbar-toggler-icon{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+.navbar-hide-sm{
+    display: block !important;
+}
+
+.navbar-underheader-hide-sm{
+    display: none !important;
+}
+
+
+
+/* SECTION media queries */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices sm (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    :root{
+        --bs-body-font-size: 1.1rem !important;
+        --bs-body-font-weight: 400 !important;
+        --bs-body-line-height: 1.5 !important;
+    }
+
+    h1{
+        font-size: 2.3rem !important;
+    }
+
+    h4{
+        font-size: 1.5rem !important;
+    }
+
+    h7{
+        font-size: 1.3rem !important;
+    }
+
+    .footer-logo{
+        max-width: 25%;
+    }
+
+    .navbar-hide-sm{
+        display: none !important;
+    }
+    
+    .navbar-underheader-hide-sm{
+        display: block !important;
+    }
+}
+
+/* Medium devices md (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices lg (desktops, 992px and up) */
+@media (min-width: 992px) {
+    :root{
+        --bs-body-font-size: 1.5rem !important;
+        --bs-body-font-weight: 400 !important;
+        --bs-body-line-height: 1.7 !important;
+    }
+
+    h1{
+        font-size: 2.8rem !important;
+    }
+
+    h4{
+        font-size: 1.9rem !important;
+    }
+
+    h7{
+        font-size: 1.9rem !important;
+    }
+
+    .footer-logo{
+        max-width: 25%;
+    }
+}
+
+/* X-Large devices xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* XX-Large devices xxl (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+/* !SECTION media queries */
